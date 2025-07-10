@@ -45,6 +45,10 @@ public class PageToRead
                     if (index != tokens.Length - 1)
                         return (false, $"Invalid sequence: data after loop at page {pageNumber}");
                 }
+                if(hasLoop)
+                {
+                    return (true, $"but we see the loop {pageNumber}");
+                }
             }
             else
             {
