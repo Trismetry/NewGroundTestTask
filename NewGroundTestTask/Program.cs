@@ -24,7 +24,7 @@ namespace NewGroundTestTask
             Console.WriteLine($"Success: {result2.success}, Message: {result2.message}");
 
             Console.WriteLine($"Count: {reader2.CountOfPages()}");
-            Console.WriteLine($"Page at 2: {reader2.PageAt(2)?.PageNumber}");testc case
+            Console.WriteLine($"Page at 2: {reader2.PageAt(2)?.PageNumber}");
             Console.WriteLine($"Last Page: {reader2.LastPage()?.PageNumber}");
             //
             Console.WriteLine($"Success: {result3.success}, Message: {result3.message}");
